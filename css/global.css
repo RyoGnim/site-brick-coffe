@@ -1,0 +1,36 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+}
+/* Navbar */
+
+.navbar{
+    background-color: #28282a;
+    transition: background-color .4s ease-in-out;
+}
+
+/* /Navbar */
+
+
+/* cards promo */
+
+.promo{
+    background-color: #28282a;
+    height: 90vh;
+    margin-top: 30px;
+    border-style: none;
+}
+
+.promo .card-img-top{
+    filter: brightness(0);
+   
+    filter: drop-shadow(16px 16px 10px black);
+    transition: opacity .5s ease-in-out;
+}
+
+.promo .card-img-top:hover {
+    
+}
+
+
+/* /cards promo */
